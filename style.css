@@ -1,0 +1,2106 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Sans+Serif&display=swap");
+
+* {
+  font-family: "poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+  border: none;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+:root {
+  --bg-color: #1f242d;
+  --second-bg-color: #323946;
+  --text-color: #fff;
+  --main-color: #0ef;
+}
+
+body {
+  background-color: #1f242d;
+}
+
+.flex {
+  display: flex;
+}
+
+.Navbar {
+  background: var(--bg-color);
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  justify-content: space-between;
+  top: 0%;
+  position: sticky;
+  z-index: 100;
+}
+
+.Navbar ul li {
+  margin-right: 35px;
+  padding: 7px 10px;
+  transition: 0.2s;
+  border-radius: 20px;
+}
+.visibility {
+  display: block;
+}
+
+.Navbarright {
+  margin-right: 6.875rem;
+}
+
+.Navbarleft img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin: 0px 30px 0px 0px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.Navbarright {
+  display: flex;
+  align-items: center;
+}
+
+.Navbarright i {
+  color: #fff;
+}
+
+.Navbarleft {
+  justify-content: center;
+  align-items: center;
+  margin-left: 6.875rem;
+}
+
+.Navbar ul li a:hover {
+  color: var(--main-color);
+}
+
+.flex li a {
+  text-decoration: none;
+  /* Remove underline */
+  color: black;
+  /* Change link color */
+}
+
+.flex li {
+  list-style-type: none;
+}
+
+.Navbar ul li a {
+  padding: 7px 10px;
+  transition: 0.2s;
+  border-radius: 20px;
+  color: white;
+}
+
+.Navbarleft h3 {
+  color: var(--text-color);
+  transition: 0.2s;
+  font-size: 1.2rem;
+}
+
+.Navbarleft img:hover {
+  transform: scale(1.1);
+}
+
+.Homesection {
+  margin-top: 50px;
+  min-height: 710px;
+  background-color: #1f242d;
+}
+
+.leftsection {
+  flex-direction: column;
+  max-width: 50%;
+  justify-content: center;
+  margin-left: 6.875rem;
+}
+
+.leftsection p {
+  margin-top: 0.7rem;
+  color: #fff;
+}
+
+.rightsection img {
+  max-width: 40rem;
+  max-height: 40rem;
+  transition: 0.3s;
+    animation: floatUpDown 3s ease-in-out infinite;
+}
+
+.rightsection {
+  flex-grow: 1;
+  justify-content: flex-end;
+  margin-right: 6.875rem;
+  align-items: center;
+}
+
+.leftsection span {
+  color: #0ef;
+}
+
+.lsp1 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.lsp2 {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+.lsp3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.lsp4 {
+  padding-top: 0.8rem;
+  font-size: 1.2rem;
+}
+
+.social-media a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+  background: transparent;
+  border: 0.2rem solid var(--main-color);
+  border-radius: 50%;
+  font-size: 1.5rem;
+  fill: #0ef;
+  margin: 1.5rem 1.5rem 2rem 0;
+  transition: 0.3s;
+}
+
+.social-media a:hover {
+  background: var(--main-color);
+  fill: var(--second-bg-color);
+  box-shadow: 0 0 0.7rem var(--main-color);
+}
+
+.btncon {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.cv {
+  padding: 1rem 1rem;
+  background: var(--main-color);
+  border-radius: 4rem;
+  box-shadow: 0 0 0.4rem var(--main-color);
+  color: #323946;
+  letter-spacing: 0.1rem;
+  min-width: 27%;
+  transition: 0.3s;
+}
+
+.cv:hover {
+  box-shadow: 0 0 0.7rem var(--main-color);
+  cursor: pointer;
+}
+
+.lsp3 span {
+  font-size: 2rem;
+}
+
+.aboutmesection {
+  margin-top: 40px;
+  background-color: #323946;
+}
+
+.ashutoshimage {
+  max-width: 40rem;
+  max-height: 40rem;
+}
+@keyframes floatUpDown {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-15px); 
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.aboutmesection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: auto;
+  transition: all 0.5s;
+}
+
+.aboutmesection1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 6.875rem;
+  margin-right: 6.875rem;
+  overflow: hidden;
+}
+
+.aboutmesection1 ul li {
+  margin-top: 1.5rem;
+  max-width: 75%;
+}
+
+.aboutmesection1 ul {
+  list-style-type: none;
+  margin-bottom: 2rem;
+}
+
+.aboutmesection1 ul li:first-child {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.span1 {
+  font-size: 2rem;
+  color: #0ef;
+}
+
+.aboutmesection1 ul li {
+  color: #fff;
+}
+
+.aboutmesection1 {
+  gap: 4rem;
+}
+.lielementres{
+  font-size: 1.2rem;
+}
+.aboutmesection1 ul li button {
+  padding: 0.5rem 0.6rem;
+  background: var(--main-color);
+  border-radius: 4rem;
+  box-shadow: 0 0 0.4rem var(--main-color);
+  color: #323946;
+  min-width: 20%;
+  transition: 0.3s;
+  font-weight: 500;
+}
+
+.aboutmesection1 ul li button:hover {
+  box-shadow: 0 0 0.9rem var(--main-color);
+}
+
+.span2 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.myprojectshead {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.myprojectshead p {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #0ef;
+}
+
+.projectssection {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 5rem;
+  margin-left: 6.875rem;
+  margin-right: 6.875rem;
+  margin-bottom: 2rem;
+}
+
+.weatherapp1 {
+  background-color: #323946;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  border: 5px solid #0ef;
+  transition: 0.3s ease;
+}
+
+.weatherapp1:hover {
+  box-shadow: 0 0 0.6rem var(--main-color);
+}
+
+.searchbox {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+  width:100%;
+}
+
+.weatherapp1 input {
+  padding: 0.8rem 0.9rem;
+  border-radius: 30px;
+  width: 100%;
+}
+
+.searchbox box-icon {
+  fill: #fff;
+  cursor: pointer;
+}
+
+.weatherappimages {
+  margin-top: 1rem;
+  width: 10rem;
+  height: 10rem;
+}
+
+.humidityandwind {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  margin-top: 2rem;
+}
+
+.humidity {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.wind {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.humidityandwind ul li {
+  color: #fff;
+  font-size: 0.8rem;
+}
+
+.cityandtemp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.cityandtemp li {
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+.humidityandwind ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.project1 p {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+
+
+.project3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.project3 p {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.qrcodeapp {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  border: 5px solid #0ef;
+  transition: 0.3s ease;
+  gap: 1.5rem;
+  background-color: #323946;
+}
+
+.project3 p {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.qrcodecon1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.qrcodecon1 input {
+  padding: 0.7rem 0.9rem;
+  border-radius: 5px;
+}
+
+.qrcodecon1 button {
+  padding: 0.7rem 0.9rem;
+  border-radius: 5px;
+  font-weight: 600;
+  background-color: #0ef;
+  box-shadow: 0 0 0.2rem var(--main-color);
+  transition: 0.2s;
+}
+
+.qrcodecon1 button:hover {
+  box-shadow: 0 0 0.6rem var(--main-color);
+  cursor: pointer;
+}
+
+.qrcodeimgcontainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+
+.show-img {
+  max-height: 300px;
+  border: 2px solid #d1d1d1;
+}
+
+.qrcodeapp:hover {
+  box-shadow: 0 0 0.6rem var(--main-color);
+}
+
+.qrcodecon1 img {
+  margin: 0.5rem 0rem 0.5rem 0rem;
+}
+
+.myskills {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.skill1 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.skill1 div {
+  width: 15rem;
+  background-color: black;
+  height: 0.5rem;
+  border-radius: 5px;
+}
+
+.skill1 div div {
+  width: 0%;
+  background-color: #0ef;
+  border-radius: 5px;
+  box-shadow: 0 0 8px rgba(0, 235, 255, 1);
+  transition: width 0.5s ease;
+}
+
+.skill2 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.skill2 div {
+  width: 15rem;
+  background-color: black;
+  height: 0.5rem;
+  border-radius: 5px;
+}
+
+.skill2 div div {
+  width: 0%;
+  background-color: #0ef;
+  border-radius: 5px;
+  box-shadow: 0 0 8px rgba(0, 235, 255, 1);
+  transition: width 0.5s ease;
+}
+
+.skill3 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.skill3 div {
+  width: 15rem;
+  background-color: black;
+  height: 0.5rem;
+  border-radius: 5px;
+}
+
+.skill3 div div {
+  width: 0%;
+  background-color: #0ef;
+  border-radius: 5px;
+  box-shadow: 0 0 8px rgba(0, 235, 255, 1);
+  transition: width 0.5s ease;
+}
+
+.skill4 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.skill4 div {
+  width: 15rem;
+  background-color: black;
+  height: 0.5rem;
+  border-radius: 5px;
+}
+
+.skill4 div div {
+  width: 0%;
+  background-color: #0ef;
+  border-radius: 5px;
+  box-shadow: 0 0 8px rgba(0, 235, 255, 1);
+  transition: width 0.5s ease;
+}
+
+.skill5 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.skill5 div {
+  width: 15rem;
+  background-color: black;
+  height: 0.5rem;
+  border-radius: 5px;
+}
+
+.skill5 div div {
+  width: 0%;
+  background-color: #0ef;
+  border-radius: 5px;
+  box-shadow: 0 0 8px rgba(0, 235, 255, 1);
+  transition: width 0.5s ease;
+}
+
+.showskillbar,
+.hideskillbar {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.myskillshide {
+  opacity: 0;
+  position: absolute;
+}
+
+
+.project4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.project4 p {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.jokesapp {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  border: 5px solid #0ef;
+  transition: 0.3s ease;
+  gap: 1.5rem;
+  background-color: #323946;
+}
+
+.jokesapp img {
+  max-width: 7rem;
+  max-height: 7rem;
+}
+
+.jokesapp span {
+  visibility: hidden;
+}
+
+.jokesapp p {
+  word-wrap: break-word;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+max-width: 250px;
+}
+
+.jokesapp button {
+  padding: 0.5rem 0.7rem;
+  border-radius: 5px;
+  font-weight: 600;
+  background-color: #0ef;
+  box-shadow: 0 0 0.2rem var(--main-color);
+  transition: 0.2s;
+}
+
+.jokesapp button:hover {
+  cursor: pointer;
+  box-shadow: 0 0 0.6rem var(--main-color);
+}
+
+.jokesapp:hover {
+  box-shadow: 0 0 0.6rem var(--main-color);
+}
+
+form {
+  width: 100%;
+  font-size: 20px;
+}
+
+.result {
+  background-color: rgb(220, 233, 243);
+  position: relative;
+  margin-bottom: 30px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.result #result {
+  width: 85%;
+  height: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 20px;
+  padding: 7px;
+}
+
+.result .clipboard {
+  width: 15%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 25px;
+  cursor: pointer;
+  background-color: #2ef;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.field label{
+  font-size: 1.1rem;
+}
+.field input[type="number"] {
+  width: 50px;
+  height: 40px;
+  outline: none;
+  border: none;
+  padding: 10px;
+  padding-right: 0px;
+  font-size: 1rem;
+  background-color: rgb(241, 241, 241);
+  border-radius: 4px;
+}
+
+.field {
+  height: 40px;
+  margin-top: 5px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-items: center;
+  padding-right: 10px;
+  transition: 0.3s ease background-color;
+  color: #fff;
+}
+
+.field:first-of-type {
+  padding-right: 0;
+}
+
+.field:hover {
+  background-color: #1f242d;
+}
+
+.field label {
+  width: 100%;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.field input {
+  cursor: pointer;
+}
+
+.genpassbtn {
+  display: inline-block;
+  width: 100%;
+  border: none;
+  outline: none;
+  height: 45px;
+  background-color: #0ef;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 30px;
+  border-radius: 6px;
+  transition: 0.3s ease;
+  box-shadow: 0 0 0.2rem var(--main-color);
+  font-weight: 600;
+}
+
+.genpassbtn:hover {
+  box-shadow: 0 0 0.6rem var(--main-color);
+}
+
+.project5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.passwordgenapp {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  border: 5px solid #0ef;
+  transition: 0.3s ease;
+  gap: 1.5rem;
+  background-color: #323946;
+}
+
+.passwordgenapp:hover {
+  box-shadow: 0 0 0.6rem var(--main-color);
+}
+
+.project5 p {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.clipboard ion-icon {
+  color: #000000;
+}
+
+.jokescontainer {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.achievements {
+  display: flex;
+  padding-top: 2rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  background-color: #323946;
+}
+
+.achievements p {
+  color: #0ef;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.achievements1 {
+  margin-left: 6.875rem;
+  margin-right: 6.875rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.achievementsleft {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 2rem;
+  max-width: 70%;
+}
+
+.achievementsleft ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  border: 5px solid #1f242d;
+  border-radius: 10px;
+  padding: 1rem;
+  transition: 0.3s ease;
+}
+
+.achievementsleft ul:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.achievementsleft ul li {
+  color: #fff;
+}
+
+.achievementsleft ul span {
+  color: #0ef;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.achievementsleft ul li {
+  font-size: 1rem;
+}
+
+.formsection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 6rem;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.formsection p {
+  color: #0ef;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.form1 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 1rem;
+  width: 30%;
+  max-width: 100%;
+  background-color: #323946;
+}
+
+.forminputname {
+  display: flex;
+  gap: 1rem;
+}
+
+.form1 input {
+  padding: 0.5rem 0.7rem;
+  border-radius: 0.3rem;
+}
+
+.form1 textarea {
+  padding: 0.5rem 0.7rem;
+
+  border-radius: 0.3rem;
+}
+
+.sendbuttonform button {
+  padding: 0.5rem 2rem;
+  background-color: #0ef;
+  font-weight: 600;
+  border-radius: 20px;
+  box-shadow: 0 0 0.2rem var(--main-color);
+  transition: 0.3s ease-out;
+}
+
+.sendbuttonform button:hover {
+  cursor: pointer;
+  box-shadow: 0 0 0.6rem var(--main-color);
+}
+
+.sendbuttonform {
+  display: flex;
+  justify-content: center;
+}
+
+.form1 {
+  border: 4px solid #0ef;
+  padding: 2rem;
+  border-radius: 10px;
+  min-height: 35rem;
+}
+
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  min-width: 10rem;
+}
+
+.hamiconcontainer {
+  min-width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  background-color: #1f242d;
+  box-shadow: 0 0 1rem var(--bg-color);
+}
+
+.hamiconcontainer i {
+  padding: 0.3rem 0.3rem 0rem 0rem;
+  scale: 1.3;
+}
+
+.hamburger ul li a {
+  font-size: 0.9rem;
+}
+
+.trash {
+  opacity: 0;
+}
+
+.hamicons {
+  background-color: #1f242d;
+  box-shadow: 0 0 1rem var(--bg-color);
+}
+
+.hamburger {
+  display: none;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  letter-spacing: 0.1rem;
+  background-color: #323946;
+  min-height: 3rem;
+   gap: 3rem;
+}
+footer box-icon{
+background-color: #0ef;
+border-radius: 3px;
+width: 40px;
+box-shadow: 0 0 0.3rem var(--main-color);
+transition: 0.3s;
+}
+footer box-icon:hover{
+  box-shadow: 0 0 0.6rem var(--main-color);
+  cursor: pointer;
+}
+.weatherapp1, .qrcodeapp , .jokesapp , .passwordgenapp{
+  height: 530px;
+  width: 350px;
+}
+.project2{
+  display: none;
+}
+@media (min-width: 1376px) and (max-width: 1640px) {
+  .lielementres {
+    min-width: 90%;
+  }
+
+  .myskillbar {
+    min-width: 90%;
+  }
+
+  .form1 {
+    min-width: 35%;
+  }
+
+  .Homesection {
+    min-height: auto;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1376px) {
+  html {
+    font-size: 90%;
+  }
+  .project1 p {
+    font-size: 1.6rem;
+  }
+  .project3 p{
+    font-size: 1.6rem;
+  }
+  .project4 p{
+    font-size: 1.6rem;
+  }
+  .project5 p{
+    font-size: 1.6rem;
+  }
+  .jokesapp p{
+    font-size: 1.2rem;
+  }
+  .achievementsleft ul li{
+    font-size: 1.15rem;
+  }
+  .achievementsleft{
+max-width: 70%;
+  }
+  .weatherapp1, .qrcodeapp , .jokesapp , .passwordgenapp{
+    height: 485px;
+    width: 350px;
+  }
+  .Navbarleft {
+    margin-left: 3rem;
+  }
+
+  .Navbarright {
+    margin-right: 3rem;
+  }
+
+  .rightsection {
+    margin-right: 3rem;
+  }
+
+  .leftsection {
+    margin-left: 3rem;
+  }
+
+  .aboutmesection1 {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+
+  .lielementres,
+  .myskillbar {
+    min-width: 100%;
+  }
+
+  .projectssection {
+    margin-right: 3rem;
+    margin-left: 3rem;
+  }
+
+  .achievements1 {
+    margin-right: 3rem;
+    margin-left: 3rem;
+  }
+
+  .form1 {
+    min-width: 35rem;
+  }
+
+  .rightsection img {
+    max-height: 36rem;
+    max-width: 36rem;
+  }
+
+  .aboutmesection1 img {
+    max-height: 36rem;
+    max-width: 36rem;
+  }
+
+  .Homesection {
+    min-height: auto;
+  }
+  .myskills p{
+    font-size: 1.1rem;
+  }
+  .jokesapp button{
+    font-size: 1.05rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  html {
+    font-size: 85%;
+  }
+  .qrcodecon1 button{
+    font-size: 1.1rem;
+  }
+  .qrcodecon1 input{
+    font-size: 1rem;
+  }
+
+  .project1 p {
+    font-size: 1.5rem;
+  }
+  .project3 p{
+    font-size: 1.5rem;
+  }
+  .project4 p{
+    font-size: 1.5rem;
+  }
+  .project5 p{
+    font-size: 1.5rem;
+  }
+  .jokesapp p{
+    font-size: 1.2rem;
+  }
+  .jokesapp button{
+    font-size: 1.1rem;
+  }
+  .weatherapp1, .qrcodeapp , .jokesapp , .passwordgenapp{
+    height: 480px;
+    width: 333px;
+  }
+  .achievementsleft ul li{
+    font-size: 1.2rem;
+  }
+  .Navbarleft {
+    margin-left: 2rem;
+  }
+
+  .Navbarright {
+    margin-right: 2rem;
+  }
+
+  .rightsection {
+    margin-right: 2rem;
+  }
+
+  .leftsection {
+    margin-left: 2rem;
+  }
+
+  .aboutmesection1 {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .lielementres,
+  .myskillbar {
+    min-width: 90%;
+  }
+
+  .projectssection {
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
+
+  .achievements1 {
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
+
+  .form1 {
+    min-width: 35rem;
+  }
+
+  .rightsection img {
+    max-height: 33rem;
+    max-width: 33rem;
+  }
+
+  .aboutmesection1 img {
+    max-height: 33rem;
+    max-width: 33rem;
+  }
+
+  .Homesection {
+    min-height: auto;
+  }
+
+  .Navbar ul li {
+    margin-right: 20px;
+  }
+  .myskills p{
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  html {
+    font-size: 80%;
+  }
+  .qrcodecon1 button{
+    font-size: 1.1rem;
+  }
+  .qrcodecon1 input{
+    font-size: 1rem;
+  }
+  .result #result {
+    font-size: 1.4rem;
+  }
+  .genpassbtn{
+    height: 45px;
+    font-size: 1.1rem;
+  }
+  .social-media a{
+    width: 3.3rem;
+    height: 3.3rem;
+  }
+  .project1 p {
+    font-size: 1.5rem;
+  }
+  .project3 p{
+    font-size: 1.5rem;
+  }
+  .project4 p{
+    font-size: 1.5rem;
+  }
+  .project5 p{
+    font-size: 1.5rem;
+  }
+  .weatherapp1, .qrcodeapp , .jokesapp , .passwordgenapp{
+    height: 450px;
+    width: 333px;
+  }
+.achievementsleft ul li{
+  font-size: 1.2rem;
+}
+  .Navbarleft {
+    margin-left: 1.5rem;
+  }
+ .jokesapp p{
+  font-size: 1.2rem;
+ }
+  .Navbarright {
+    margin-right: 1.5rem;
+  }
+
+  .rightsection {
+    margin-right: 1.5rem;
+  }
+
+  .leftsection {
+    margin-left: 1.5rem;
+  }
+
+  .aboutmesection1 {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+
+  .lielementres {
+    min-width: 100%;
+  }
+
+  .myskillbar {
+    min-width: 100%;
+  }
+
+  .projectssection {
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+  }
+
+  .achievements1 {
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+  }
+
+  .form1 {
+    min-width: 30rem;
+  }
+
+  .rightsection img {
+    max-height: 31rem;
+    max-width: 31rem;
+  }
+
+  .aboutmesection1 img {
+    max-height: 31rem;
+    max-width: 31rem;
+  }
+
+  .Homesection {
+    min-height: auto;
+  }
+  .jokesapp button{
+    font-size: 1.2rem;
+  }
+  .Navbar ul li {
+    margin-right: 20px;
+  }
+
+  .achievementsleft {
+    max-width: 85%;
+  }
+
+  .uladjust {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .Navbar {
+    height: 50px;
+  }
+
+  .skill1 div,
+  .skill2 div,
+  .skill3 div,
+  .skill4 div,
+  .skill5 div {
+    width: 13rem;
+  }
+
+  .Navbarleft img {
+    width: 40px;
+    height: 40px;
+  }
+  .myskills p{
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .Homesection{
+    flex-direction: column;
+  }
+    .weatherapp1, .qrcodeapp , .jokesapp , .passwordgenapp{
+    height: 425px;
+    width: 330px;
+  }
+  .qrcodecon1 button{
+    font-size: 1.3rem;
+  }
+  .jokesapp button{
+    font-size: 1.2rem;
+  }
+  .qrcodecon1 input{
+    font-size: 1.2rem;
+  }
+  .achievementsleft ul li{
+    font-size: 1.2rem;
+  }
+  html {
+    font-size: 75%;
+  }
+  .project1 p {
+    font-size: 1.7rem;
+  }
+  .project3 p{
+    font-size: 1.7rem;
+  }
+  .project4 p{
+    font-size: 1.7rem;
+  }
+  .project5 p{
+    font-size: 1.7rem;
+  }
+  .jokesapp p{
+    max-width: 280px;
+    font-size: 1.3rem;
+  } 
+
+  .Navbarleft {
+    margin-left: 1.5rem;
+  }
+
+  .Navbarright {
+    margin-right: 1.5rem;
+  }
+
+  .rightsection {
+    margin-right: 1.5rem;
+    justify-content: center;
+  }
+
+  .leftsection {
+    margin-left: 1.5rem;
+  }
+
+  .aboutmesection1 {
+    margin-left: 0rem;
+    margin-right: 1.5rem;
+  }
+.aboutmesection1 ul{
+  padding-left: 1.5rem;
+}
+  .lielementres {
+    min-width: 90%;
+  }
+
+  .projectssection {
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+  }
+
+  .achievements1 {
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+  }
+
+  .form1 {
+    min-width: 30rem;
+  }
+
+  .rightsection img {
+    max-height: 40rem;
+    max-width: 40rem;
+  }
+.leftsection{
+  min-width: 75%;
+}
+  .aboutmesection1 img {
+    max-height: 31rem;
+    max-width: 31rem;
+  }
+
+  .Homesection {
+    min-height: auto;
+   gap: 3rem;
+  }
+
+  .Navbar ul li {
+    margin-right: 20px;
+  }
+
+  .achievementsleft{
+    max-width: 75%;
+  }
+
+  .uladjust {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .Navbar {
+    height: 50px;
+  }
+
+  .skill1 div,
+  .skill2 div,
+  .skill3 div,
+  .skill4 div,
+  .skill5 div {
+    width: 13rem;
+  }
+
+  .Navbarleft img {
+    width: 40px;
+    height: 40px;
+  }
+  .aboutmesection1{
+    flex-direction: column-reverse;
+  }
+  .aboutmesection1 img{
+    display: none;
+  }
+  .myskillbar{
+    max-width:90%;
+  }
+  /* .weatherapp1, .qrcodeapp, .jokesapp, .passwordgenapp{
+    height: 400px;
+  } */
+  .achievementsleft{
+    max-width: 85%;
+  }
+  .field label{
+    font-size: 1.2rem;
+  }
+  .social-media a{
+    width: 3.3rem;
+    height: 3.3rem;
+  }
+.myskills p{
+  font-size: 1.1rem;
+}
+.result #result {
+  font-size: 1.5rem;
+}
+.genpassbtn{
+  height: 45px;
+  font-size: 1.3rem;
+}
+.achievementsleft{
+  padding-left: 0rem;
+  padding-right: 0rem;
+  padding-top: 1rem;
+}
+}
+@media (min-width: 480px) and (max-width: 576px){
+  .Homesection{
+    flex-direction: column;
+  }
+  .qrcodecon1 button{
+    font-size: 1.3rem;
+  }
+  .qrcodecon1 input{
+    font-size: 1.1rem;
+  }
+  .achievementsleft ul li{
+    font-size: 1.1rem;
+  }
+  html {
+    font-size: 73%;
+  }
+  .project1 p {
+    font-size: 1.7rem;
+  }
+  .project3 p{
+    font-size: 1.7rem;
+  }
+  .project4 p{
+    font-size: 1.7rem;
+  }
+  .project5 p{
+    font-size: 1.7rem;
+  }
+  .weatherapp1, .qrcodeapp , .jokesapp , .passwordgenapp{
+    height: 415px;
+    width: 311px;
+  }
+  .jokesapp p{
+    max-width: 240px;
+    font-size: 1.2rem;
+  } 
+.jokesapp button{
+  font-size: 1.1rem;
+}
+  .Navbarleft {
+    margin-left: 1.5rem;
+  }
+
+  .Navbarright {
+    margin-right: 1.5rem;
+  }
+
+  .rightsection {
+    margin-right: 1.5rem;
+    justify-content: center;
+  }
+
+  .leftsection {
+    margin-left: 1.5rem;
+  }
+
+  .aboutmesection1 {
+    margin-left: 0rem;
+    margin-right: 1.5rem;
+  }
+.aboutmesection1 ul{
+  padding-left: 1.5rem;
+}
+  .lielementres {
+    min-width: 100%;
+  }
+
+  .projectssection {
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+  }
+
+  .achievements1 {
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+  }
+
+  .form1 {
+    min-width: 26rem;
+  }
+
+  .rightsection img {
+    max-height: 38rem;
+    max-width: 38rem;
+  }
+.leftsection{
+  min-width: 85%;
+}
+
+  .Homesection {
+    min-height: auto;
+   gap: 3rem;
+  }
+  .achievementsleft{
+    min-width:90%;
+  }
+
+  .uladjust {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+  .skill1 div,
+  .skill2 div,
+  .skill3 div,
+  .skill4 div,
+  .skill5 div {
+    width: 13rem;
+  }
+
+  .Navbarleft img {
+    width: 40px;
+    height: 40px;
+  }
+  .aboutmesection1{
+    flex-direction: column-reverse;
+  }
+  .aboutmesection1 img{
+    display: none;
+  }
+  .myskillbar{
+    max-width:80%;
+  }
+  /* .weatherapp1, .qrcodeapp, .jokesapp, .passwordgenapp{
+    height: 400px;
+  } */
+  .achievementsleft{
+    max-width: 85%;
+  }
+  .field label{
+    font-size: 1rem;
+  }
+  .social-media a{
+    width: 3.3rem;
+    height: 3.3rem;
+  }
+.myskills p{
+  font-size: 1.1rem;
+}
+.humidityandwind ul li{
+  font-size: 0.9rem;
+}
+.result #result {
+  font-size: 1.4rem;
+}
+.genpassbtn{
+  height: 35px;
+  font-size: 1.2rem;
+}
+.achievementsleft{
+  padding-left: 0rem;
+  padding-right: 0rem;
+  padding-top: 1rem;
+}
+.Navbar {
+  height: 45px;
+}
+.humidityandwind ul li img{
+  width: 5.5rem;
+  height: 5.5rem;
+  }
+}
+@media (min-width: 385px) and (max-width: 480px){
+  .Homesection{
+    flex-direction: column;
+  }
+  .qrcodecon1 button{
+    font-size: 1.3rem;
+  }
+  .qrcodecon1 input{
+    font-size: 1.1rem;
+  }
+  .achievementsleft ul li{
+    font-size: 1.1rem;
+  }
+  html {
+    font-size: 71%;
+  }
+  .project1 p {
+    font-size: 1.7rem;
+  }
+  .project3 p{
+    font-size: 1.7rem;
+  }
+  .project4 p{
+    font-size: 1.7rem;
+  }
+  .project5 p{
+    font-size: 1.7rem;
+  }
+  .weatherapp1, .qrcodeapp , .jokesapp , .passwordgenapp{
+    height: 415px;
+    width: 305px;
+  }
+  .jokesapp p{
+    max-width: 240px;
+    font-size: 1.2rem;
+  } 
+.jokesapp button{
+  font-size: 1.1rem;
+}
+  .Navbarleft {
+    margin-left: 1.5rem;
+  }
+
+  .Navbarright {
+    margin-right: 1.5rem;
+  }
+
+  .rightsection {
+    margin-right: 1.5rem;
+    justify-content: center;
+  }
+
+  .leftsection {
+    margin-left: 1.5rem;
+  }
+
+  .aboutmesection1 {
+    margin-left: 0rem;
+    margin-right: 1.5rem;
+  }
+.aboutmesection1 ul{
+  padding-left: 1.5rem;
+}
+  .lielementres {
+    min-width: 100%;
+  }
+
+  .projectssection {
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+  }
+
+  .achievements1 {
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+  }
+
+  .form1 {
+    min-width: 28rem;
+  }
+
+  .rightsection img {
+    max-height: 35rem;
+    max-width: 35rem;
+  }
+.leftsection{
+  min-width: 85%;
+}
+
+  .Homesection {
+    min-height: auto;
+   gap: 3rem;
+  }
+  .achievementsleft{
+    min-width:100%;
+  }
+
+  .uladjust {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+.achievementsleft{
+  padding-left: 0rem;
+  padding-right: 0rem;
+  padding-top: 1rem;
+}
+  .Navbar {
+    height: 45px;
+  }
+
+  .skill1 div,
+  .skill2 div,
+  .skill3 div,
+  .skill4 div,
+  .skill5 div {
+    width: 13rem;
+  }
+
+  .Navbarleft img {
+    width: 35px;
+    height: 35px;
+  }
+  .aboutmesection1{
+    flex-direction: column-reverse;
+  }
+  .aboutmesection1 img{
+    display: none;
+  }
+  .myskillbar{
+    max-width:80%;
+  }
+  /* .weatherapp1, .qrcodeapp, .jokesapp, .passwordgenapp{
+    height: 400px;
+  } */
+  .field label{
+    font-size: 1rem;
+  }
+  .social-media a{
+    width: 3.3rem;
+    height: 3.3rem;
+  }
+.myskills p{
+  font-size: 1.1rem;
+}
+.humidityandwind ul li{
+  font-size: 0.9rem;
+}
+.result #result {
+  font-size: 1.4rem;
+}
+.genpassbtn{
+  height: 35px;
+  font-size: 1.2rem;
+}
+.Navbarleft img{
+  margin: 0px 20px 0px 0px;
+
+}
+.humidityandwind ul li img{
+  width: 5rem;
+  height: 5rem;
+  }
+}
+@media (min-width: 280px) and (max-width: 385px){
+  .Homesection{
+    flex-direction: column;
+  }
+  .weatherapp1 *{
+    max-height: 380px;
+    max-width: 260px;
+  }
+  .qrcodeapp{
+    max-height: 380px;
+    max-width: 260px;
+  }
+  .jokesapp{
+    max-height: 380px;
+    max-width: 260px;
+  }
+  .passwordgenapp{
+    max-height: 380px;
+    max-width: 260px;
+  }
+  .qrcodecon1 button{
+    font-size: 1.2rem;
+  }
+  .qrcodecon1 input{
+    font-size: 1.1rem;
+  }
+  .achievementsleft ul li{
+    font-size: 1.1rem;
+  }
+  html {
+    font-size: 69%;
+  }
+  .project1 p {
+    font-size: 1.5rem;
+  }
+  .project3 p{
+    font-size: 1.5rem;
+  }
+  .project4 p{
+    font-size: 1.5rem;
+  }
+  .project5 p{
+    font-size: 1.5rem;
+  }
+  .weatherapp1, .qrcodeapp , .jokesapp , .passwordgenapp{
+  height: 380px;
+    width: 260px;
+
+  }
+  .jokesapp p{
+    max-width: 205px;
+    font-size: 1.2rem;
+  } 
+.jokesapp button{
+  font-size: 1.1rem;
+}
+  .Navbarleft {
+    margin-left: 1rem;
+  }
+
+  .Navbarright {
+    margin-right: 1rem;
+  }
+
+  .rightsection {
+    margin-right: 1rem;
+    justify-content: center;
+  }
+
+  .leftsection {
+    margin-left: 1rem;
+  }
+
+  .aboutmesection1 {
+    margin-left: 0rem;
+    margin-right: 1rem;
+  }
+.aboutmesection1 ul{
+  padding-left: 1rem;
+}
+  .lielementres {
+    min-width: 100%;
+  }
+
+  .projectssection {
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+
+  .achievements1 {
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+
+  .form1 {
+    min-width: 24rem;
+  }
+
+  .rightsection img {
+    max-height: 35rem;
+    max-width: 35rem;
+  }
+.leftsection{
+  min-width: 95%;
+}
+
+  .Homesection {
+    min-height: auto;
+   gap: 3rem;
+  }
+  .achievementsleft{
+    min-width:100%;
+  }
+
+  .uladjust {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+.achievementsleft{
+  padding-left: 0rem;
+  padding-right: 0rem;
+  padding-top: 1rem;
+}
+  .Navbar {
+    height: 45px;
+  }
+
+  .skill1 div,
+  .skill2 div,
+  .skill3 div,
+  .skill4 div,
+  .skill5 div {
+    width: 13rem;
+  }
+
+  .Navbarleft img {
+    width: 32px;
+    height: 32px;
+  }
+  .aboutmesection1{
+    flex-direction: column-reverse;
+  }
+  .aboutmesection1 img{
+    display: none;
+  }
+  .myskillbar{
+    max-width:80%;
+  }
+  /* .weatherapp1, .qrcodeapp, .jokesapp, .passwordgenapp{
+    height: 400px;
+  } */
+  .field label{
+    font-size: 1rem;
+  }
+  .social-media a{
+    width: 3.3rem;
+    height: 3.3rem;
+  }
+.myskills p{
+  font-size: 1.1rem;
+}
+.humidityandwind ul li{
+  font-size: 0.9rem;
+}
+.result #result {
+  font-size: 1.4rem;
+}
+.genpassbtn{
+  height: 35px;
+  font-size: 1.2rem;
+}
+.Navbarleft img{
+  margin: 0px 10px 0px 0px;
+
+}
+.Navbarleft h3{
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.lsp1{
+  font-size: 1.8rem;
+}
+.lsp2{
+  font-size: 2.2rem;
+}
+.lsp3{
+font-size: 1.4rem;
+}
+.lsp3 span{
+  font-size: 1.8rem;
+  min-width: 100%;
+}
+.lsp4{
+  max-width: 95%;
+}
+.span2{
+  font-size: 1.8rem;
+}
+.lielementres{
+  font-size: 1.1rem;
+}
+.humidityandwind ul li img{
+width: 4rem;
+height: 4rem;
+}
+.humidityandwind{
+  gap: 3rem;
+}
+.weatherapp1{
+  padding: 1rem;
+}
+/* .weatherapp1 input{
+z-index: 1;
+} */
+footer p{
+  font-size: 0.8rem;
+}
+footer box-icon{
+width: 20px;
+height: 20px;
+}
+.passwordgenapp{
+  padding:1rem;
+}
+.genpassbtn{
+  margin-top: 20px;
+}
+}
