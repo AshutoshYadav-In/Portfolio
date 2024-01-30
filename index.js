@@ -289,8 +289,8 @@ function sendMail() {
 }
 sendformbutton.addEventListener("click",sendMail);
 function downloadCV() {
-  const fileName = "AshutoshYadavCV.pdf"; // Change the file name and extension as needed
-  const fileUrl = "Images/AshutoshYadavCV.pdf"; // Replace with the actual path to your CV file
+  const fileName = "AshutoshYadavResume.pdf"; // Change the file name and extension as needed
+  const fileUrl = "Images/AshutoshYadavResume.pdf"; // Replace with the actual path to your CV file
 
   const link = document.createElement("a");
   link.href = fileUrl;
